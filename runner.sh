@@ -1,6 +1,7 @@
-qselect -u yairdaon | xargs qdel
+#qselect -u yairdaon | xargs qdel
 declare -a ARR=("-0.5" "0" "0.5" "1")
 rm -rvf output/*
+mkdir -p waning/scripts
 for ID in {0..2}; do
     echo "Create and run waning/scripts/run$ID script."
     echo "#!/bin/bash" > scripts/run$ID.sh
