@@ -11,9 +11,7 @@
 </details>
 
 <h2 id="about-the-project"> About the project</h2>
-We find that a less fit strain can invade and replace a more fit one.  We conclude that it is important to rapidly assess the cross-immunity of new variants, so that we can calculate their probability of taking off, as this might happen even if they don't have a transmissibility advantage. 
-
-Why? Effectively due to partial immunity, individuals who have previously been infected with the resident strain are susceptible to the novel strain. Thus, the pool of susceptible hosts available to the mutant strain is larger than the remaining pool of susceptibles hosts available to the resident strain. 
+We simulate the emergence and invasion of a novel SARS-CoV-2 strain in a population previously exposed to an immunologically related pathogen.
 
 <h2 id="Code"> Code</h2>
 
