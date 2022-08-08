@@ -19,14 +19,12 @@ Why? Effectively due to partial immunity, individuals who have previously been i
 
 To run stochastic simulations on HPC cluster, modify the bash script: `runner.sh`. Submit jobs using `bash runner.sh` in your server environment. 
 
-The initial conditions are input from the command line. E.g., run `python main.py 5 01 0.5` to start the simulations with the 5th parameter in the csv file, , and `eps = 0.5`.
+The initial conditions are input from the command line. E.g., run `python main.py 5 01 0.5` to start the simulations with the 5th parameter in the csv file, `Ip0=0, In0=1`, and `eps = 0.5`.
 
     master
     ├── funcs.py
-    ├── ratio_waning_model.sbatch
-    ├── run_waning_strain_ratio.py
-    ├── test_run_waning_strain_ratio.py
-    ├── run_test_waning_strain_ratio.sh
+    ├── main.py.py
+    ├── runner.shsh
    
 <!-- To create the figures in jupyter notebooks. 
 
