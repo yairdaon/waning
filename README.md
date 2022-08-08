@@ -15,9 +15,9 @@ We simulate the emergence and invasion of a novel SARS-CoV-2 strain in a populat
 
 <h2 id="Code"> Code</h2>
 
-To run stochastic simulations on HPC cluster, modify the bash script: `runner.sh`. Submit jobs using `bash runner.sh` in your server environment. 
+To run stochastic simulations on an HPC cluster, modify the bash script: `runner.sh`. Submit jobs using `bash runner.sh` in your server environment. 
 
-The initial conditions are input from the command line. E.g., run `python main.py 5 01 0.5` to start the simulations with the 5th parameter in the csv file, `Ip0=0, In0=1`, and `eps = 0.5`. 
+The initial conditions are input from the command line. E.g., run `python main.py 5 01 0.5` to start the simulations with the 5th parameter in the csv file, `In0=0` (initial number infected individuals previously uninfected with the related strain), `Ip0=1` (initial number infected individuals previously infected with the related strain), and `eps = 0.5`. 
 
     waning
     ├── funcs.py
