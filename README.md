@@ -19,13 +19,15 @@ Why? Effectively due to partial immunity, individuals who have previously been i
 
 To run stochastic simulations on HPC cluster, modify the bash script: `runner.sh`. Submit jobs using `bash runner.sh` in your server environment. 
 
-The initial conditions are input from the command line. E.g., run `python main.py 5 01 0.5` to start the simulations with the 5th parameter in the csv file, `Ip0=0, In0=1`, and `eps = 0.5`.
+The initial conditions are input from the command line. E.g., run `python main.py 5 01 0.5` to start the simulations with the 5th parameter in the csv file, `Ip0=0, In0=1`, and `eps = 0.5`. 
 
-    master
+    waning
     ├── funcs.py
     ├── main.py.py
     ├── runner.shsh
    
+   
+The name of the CSV file that contains the parameters relevant to the current run is hard coded inside `main.py`.
 <!-- To create the figures in jupyter notebooks. 
 
     notebooks
